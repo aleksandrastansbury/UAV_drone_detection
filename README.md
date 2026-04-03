@@ -18,7 +18,7 @@ Follow the official ROS2 Jazzy install guide for Ubuntu 24.04.
 
 ### 2. Clone the repo
 ```
-git clone https://github.com/aleks504/UAV_drone_detection.git
+git clone https://github.com/aleksandrastansbury/UAV_drone_detection.git
 cd UAV_drone_detection
 ```
 
