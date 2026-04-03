@@ -76,6 +76,3 @@ ros2 topic echo /detections
 |-------|------|-------------|
 | /camera/image_raw | sensor_msgs/Image | Raw camera frames |
 | /detections | std_msgs/String | JSON detections with bbox + confidence |
-
-## Team
-UAV Detection Team
