@@ -1,0 +1,9 @@
+{
+    "ros.distro": "jazzy",
+    "python.defaultInterpreterPath": "/usr/bin/python3",
+    "terminal.integrated.env.linux": {
+        "ROS_DISTRO": "jazzy",
+        "AMENT_PREFIX_PATH": "/opt/ros/jazzy",
+        "PATH": "/opt/ros/jazzy/bin:${env:PATH}"
+    }
+}

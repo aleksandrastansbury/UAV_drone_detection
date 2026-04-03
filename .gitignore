@@ -1,0 +1,9 @@
+build/
+install/
+log/
+*.pt
+*.zip
+VisDrone-9/
+__pycache__/
+*.pyc
+.env
