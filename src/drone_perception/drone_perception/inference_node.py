@@ -12,7 +12,7 @@ class InferenceNode(Node):
         self.bridge = CvBridge()
 
         # Load your trained model
-        self.model = YOLO('/home/parallels/drone_ws/best.pt')
+        self.model = YOLO('/home/uav/drone_ws/best.pt')
 
         # Subscribe to Pi camera topic
         self.sub = self.create_subscription(
