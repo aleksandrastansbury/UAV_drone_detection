@@ -17,7 +17,7 @@ class InferenceNode(Node):
         # Subscribe to Pi camera topic
         self.sub = self.create_subscription(
             Image,
-            '/camera/image_raw',
+            '/image_raw',
             self.image_callback,
             10)
 
