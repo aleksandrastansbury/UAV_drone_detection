@@ -27,7 +27,7 @@ class InferenceNode(Node):
 
     def image_callback(self, msg):
         frame = self.bridge.imgmsg_to_cv2(msg, 'bgr8')
-        results = self.model(frame, conf=0.4, verbose=False)[0]
+        results = self.model(frame, conf=0.01,verbose=True)[0]
 
         detections = []
         for box in results.boxes:
